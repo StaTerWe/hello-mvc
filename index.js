@@ -1,7 +1,7 @@
-// index.js
 const express  = require('express');
 const mongoose = require('mongoose');
 
+// puerto y base de datos
 const port = process.env.PORT        || 3000;
 const db   = process.env.MONGODB_URI || 'mongodb://localhost/hellodb';
 

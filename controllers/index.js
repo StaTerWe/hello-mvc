@@ -1,4 +1,3 @@
-// controllers/index.js
 const User = require('../models/User');
 
 exports.home = (req, res) => {
